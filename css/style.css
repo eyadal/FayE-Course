@@ -23,18 +23,20 @@ body {
 
 /**  CHROME custom scrollbar options*/
 ::-webkit-scrollbar {
-  width: 6px;
-  background-color: #fff9f3;
+  width: 8px;
+  background: rgba(128, 128, 128, 0.288);
 }
 
 ::-webkit-scrollbar-track {
   border-radius: 4px;
-  background-color: #fff9f3;
+  background: rgba(128, 128, 128, 0.288);
+
 }
 
 ::-webkit-scrollbar-thumb {
   border-radius: 5px;
-  background: #000f36;
+  background: rgb(128, 128, 128);
+
 }
 
 /* HEADER STYLE */
