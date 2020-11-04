@@ -9,15 +9,16 @@
 body {
   background: rgb(38, 94, 94);
   color: white;
-  max-width: 1440px;
   margin: 0 auto;
 }
 
 /* HEADER STYLE */
 header {
+  width: 98%;
   display: flex;
   background: rgba(151, 140, 140, 0.486);
   min-height: 80px;
+  margin: 0 auto;
 }
 /* NAV STYLE */
 .navbar {
@@ -33,7 +34,8 @@ header {
 .nav ul {
   list-style: none;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  padding-left: 20px;
 }
 .search-bar {
   width: 32%;
@@ -50,25 +52,27 @@ header {
 .user {
   width: 32%;
   text-align: right;
-  padding-right: 10px;
+  padding-right: 20px;
 }
 /* MAIN WRAPPER STYLE */
 .main-wrapper {
-  width: 100%;
+  max-width: 10754px;
   min-height: 700px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   margin: 0 auto;
   margin-top: 10px;
 }
 
 /* MAIN CONTAINER STYLE */
 .main-container {
-  width: 80%;
+  max-width: 1118px;
+  min-width: 640px;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 10px;
+  padding-right: 20px;
 }
 
 .video-player {
@@ -116,7 +120,6 @@ video {
   margin-top: 10px;
   display: flex;
   align-self: center;
-  /* justify-content: space-evenly */
 }
 
 .video-comments {
@@ -130,7 +133,7 @@ video {
 /* SIDE BAR STYLE */
 
 .side-bar {
-  width: 18%;
+  min-width: 402px;
   min-height: 20%;
   margin-top: 10px;
   display: flex;
@@ -139,49 +142,55 @@ video {
 }
 
 .playlist {
-  width: 100%;
+  min-width: 402px;
   max-height: 200px;
   background: grey;
   margin-top: 10px;
   border: solid 1px black;
   display: flex;
   flex-direction: column;
-  align-items: center;
   overflow: auto;
 }
 .playlist-movie-container {
-  width: 90%;
   min-height: 50px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
-  margin-top: 10px;
-  margin-bottom: 10px;
+
+  /* margin-top: 10px; */
+  /* padding-bottom: 0px; */
+}
+.playlist-movie-container:not(:first-child) {
+  margin-bottom: 50px;
 }
 .playlist-movie-container img {
-  width: 30%;
+  width: 168px;
+  height: 94px;
 }
 .playlist-movie-container p {
-  width: 64%;
+  font-size: 1.3em;
 }
 
 .recommended-videos {
   min-height: 84%;
-  width: 98%;
+  width: 100%;
   background: grey;
   margin-top: 10px;
 }
+
 .recommended-movie-container {
-  width: 90%;
+  width: 100%;
   min-height: 50px;
   display: flex;
-  justify-content: space-evenly;
   align-items: center;
   margin-top: 10px;
   margin-bottom: 10px;
+  font-size: 1.3em;
+  justify-content: space-between;
 }
 .recommended-movie-container img {
-  width: 30%;
+  width: 168px;
+  height: 94px;
 }
 
 /* SECTION-1 STYLE */
