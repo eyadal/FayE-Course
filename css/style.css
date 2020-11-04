@@ -23,26 +23,33 @@ header {
 /* NAV STYLE */
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   width: 100%;
   font-size: 1.3rem;
   align-items: center;
 }
 .nav {
-  width: 32%;
+  flex-basis: auto;
 }
 .nav ul {
+  display: inline;
   list-style: none;
-  display: flex;
-  justify-content: space-between;
-  padding-left: 20px;
+}
+.nav ul li {
+  display: inline;
+  padding-right: 20px;
+}
+
+.nav ul li:hover {
+  color: aquamarine;
 }
 .search-bar {
-  width: 32%;
+  width: 542px;
+  flex-basis: auto;
   text-align: center;
 }
 .search-bar input {
-  width: 70%;
+  width: 90%;
   font-size: 1.5rem;
 }
 
@@ -50,9 +57,12 @@ header {
   font-size: 1.3rem;
 }
 .user {
-  width: 32%;
+  flex-basis: auto;
   text-align: right;
   padding-right: 20px;
+}
+.user-link:hover {
+  color: aquamarine;
 }
 /* MAIN WRAPPER STYLE */
 .main-wrapper {
@@ -137,7 +147,6 @@ video {
   display: flex;
   flex-direction: column;
   align-items: center;
-  
 }
 
 .playlist {
@@ -147,7 +156,6 @@ video {
   display: flex;
   flex-direction: column;
   overflow: auto;
-   
 }
 .playlist-movie-container {
   min-height: 50px;
@@ -197,7 +205,6 @@ video {
   width: 100%;
   border-bottom: solid rgba(107, 106, 106, 0.705) 2px;
   padding-bottom: 10px;
-
 }
 .section-1 button {
   font-size: 1em;
