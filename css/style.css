@@ -16,9 +16,9 @@ body {
 header {
   width: 98%;
   display: flex;
-  background: rgba(151, 140, 140, 0.486);
   min-height: 80px;
   margin: 0 auto;
+  background: rgba(128, 128, 128, 0.288);
 }
 /* NAV STYLE */
 .navbar {
@@ -88,13 +88,13 @@ video {
 
 .video-description {
   min-height: 40px;
-  background: grey;
   width: 100%;
   margin-top: 10px;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
   padding: 10px 0;
+  border-bottom: solid rgba(107, 106, 106, 0.705) 2px;
 }
 .video-description h2 {
   font-size: 1.8em;
@@ -116,7 +116,6 @@ video {
 .user-description {
   min-height: 100px;
   width: 100%;
-  background: grey;
   margin-top: 10px;
   display: flex;
   align-self: center;
@@ -126,7 +125,6 @@ video {
   min-height: 300px;
   width: 100%;
   margin-top: 10px;
-  background: grey;
   margin-bottom: 20px;
 }
 
@@ -139,22 +137,21 @@ video {
   display: flex;
   flex-direction: column;
   align-items: center;
+  
 }
 
 .playlist {
   min-width: 402px;
   max-height: 200px;
-  background: grey;
   margin-top: 10px;
-  border: solid 1px black;
   display: flex;
   flex-direction: column;
   overflow: auto;
+   
 }
 .playlist-movie-container {
   min-height: 50px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
 
   /* margin-top: 10px; */
@@ -174,8 +171,8 @@ video {
 .recommended-videos {
   min-height: 84%;
   width: 100%;
-  background: grey;
   margin-top: 10px;
+  border-top: solid rgba(107, 106, 106, 0.705) 2px;
 }
 
 .recommended-movie-container {
@@ -186,7 +183,6 @@ video {
   margin-top: 10px;
   margin-bottom: 10px;
   font-size: 1.3em;
-  justify-content: space-between;
 }
 .recommended-movie-container img {
   width: 168px;
@@ -199,6 +195,9 @@ video {
   display: flex;
   align-items: center;
   width: 100%;
+  border-bottom: solid rgba(107, 106, 106, 0.705) 2px;
+  padding-bottom: 10px;
+
 }
 .section-1 button {
   font-size: 1em;
