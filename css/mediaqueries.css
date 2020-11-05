@@ -1,5 +1,19 @@
-@media (max-width: 374px) {
+@media (max-width: 600px) {
   body {
+    color: black;
+    display: flex;
+    flex-direction: column;
+  }
+  main-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  main-container {
+    display: flex;
+    flex-direction: column;
+  }
+  side-bar {
     display: flex;
     flex-direction: column;
   }
