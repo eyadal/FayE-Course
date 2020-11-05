@@ -6,12 +6,11 @@
   }
   main-wrapper {
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
   }
   main-container {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
   }
   side-bar {
     display: flex;
