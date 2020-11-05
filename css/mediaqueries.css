@@ -30,7 +30,7 @@
   .main-container {
     padding: 0 20px;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
   }
   .side-bar {
     display: flex;
