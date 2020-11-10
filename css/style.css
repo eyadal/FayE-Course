@@ -83,56 +83,9 @@ header {
   font-size: 1.3rem;
 }
 
-.user-link:hover {
-  color: aquamarine;
-}
-/* MAIN WRAPPER STYLE */
-.main-wrapper {
-  max-width: 10754px;
-  min-height: 700px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 0 auto;
-  margin-top: 10px;
-}
-
-/* MAIN CONTAINER STYLE */
 
 
 
-.playlist {
-  display: flex;
-  flex-direction: column;
-  align-content: space-between;
-  font-size: 0.7em;
-}
-.playlist p{
-  display: flex;
-  flex-direction: row;
-  justify-items: center;
-  font-size: 1.3rem;
-}
-.recommended-videos {
-
-  width: 100%;
-  margin-top: 10px;
-  border-top: solid rgba(107, 106, 106, 0.705) 2px;
-}
-
-.recommended-movie-container {
-  width: 100%;
-  min-height: 50px;
-  display: flex;
-  align-items: center;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font-size: 1.3em;
-}
-.recommended-movie-container img {
-  width: 168px;
-  height: 94px;
-}
 
 /* User STYLE */
 
@@ -150,33 +103,4 @@ header {
   display:flex ;
   flex-direction: column;
 
-}
-.description-buttons {
-  display: flex;
-}
-
-.section-2 {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  border-bottom: solid rgba(107, 106, 106, 0.705) 2px;
-  padding-bottom: 10px;
-
-  /* display: flex;
-  align-items: center;
-  width: 100%;
-  padding: 20px 0; */
-}
-
-.section-2 img {
-  width: 12%;
-  padding-right: 20px;
-}
-.username {
-  padding-bottom: 5px;
-}
-.username span {
-  padding-left: 10px;
-  font-size: 0.7em;
-  opacity: 0.7;
 }
