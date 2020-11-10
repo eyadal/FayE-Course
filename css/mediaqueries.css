@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @media (max-width: 600px) {
   body {
     color: black;
@@ -121,3 +122,124 @@ width: 200px;
     padding-top: 10px;
   }
 }
+=======
+@media (max-width: 600px) {
+  body {
+    color: black;
+    display: flex;
+    flex-direction: column;
+  }
+  .main-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .side-bar {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 998px) {
+  body {
+    color: white;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* MAIN WRAPPER STYLE */
+  .main-wrapper {
+    max-width: 1754px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    min-height: 700px;
+    justify-content: center;
+  }
+  /* MAIN CONTAINER STYLE */
+  .main-container {
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  /* video window*/
+  .video-stream {
+    width: 732px;
+    height: 483px;
+    padding-top: 30px;
+  }
+
+  /* Top content STYLE */
+  .description {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 10px 0;
+    border-bottom: solid rgba(107, 106, 106, 0.705) 2px;
+  }
+    .user-comment-p {
+    padding-left: 80px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+  .desc-user {
+width: 200px;
+   display: flex;
+  }
+  .desc-user img{
+    width: 80px;
+  }
+  .desc-btn {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .side-bar {
+    width: 100%;
+    min-height: 300px;
+  }
+  .side-bar img {
+    width: 120px;
+    height: 70px;
+    display: flex;
+  }
+
+  /* playlist STYLE */
+  .movie-container {
+    display: flex;
+    padding-top: 10px;
+    font-size: 1.3em;
+    align-items: center;
+  }
+  .movie-container p {
+    padding-left: 20px;
+  }
+  .side-bar h2 {
+    padding-top: 20px;
+  }
+  .comes-next{
+    border-bottom: solid rgba(107, 106, 106, 0.705) 2px;
+    padding-bottom: 10px;
+  }
+ 
+  .users {
+    padding: 0 20px;
+  }
+
+
+  .user-p {
+    width: 100%;
+  }
+
+  /* Comments STYLE */
+  .video-comments {
+    padding-top: 10px;
+  }
+}
+>>>>>>> 2e293db5269d08adce3f94273d95ed5895578bcb
