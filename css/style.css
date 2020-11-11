@@ -83,10 +83,6 @@ header {
   font-size: 1.3rem;
 }
 
-
-
-
-
 /* User STYLE */
 
 .description button {
@@ -100,7 +96,6 @@ header {
 }
 .description-info {
   width: 100%;
-  display:flex ;
+  display: flex;
   flex-direction: column;
-
 }
